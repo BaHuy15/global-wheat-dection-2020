@@ -15,7 +15,8 @@ cv2.ocl.setUseOpenCL(False)
 
 def get_aug(aug):
     return Compose(aug, bbox_params=BboxParams(format='pascal_voc', min_area=0, min_visibility=0, label_fields=['category_id']))
-
+# tham khảo thêm
+# https://albumentations.ai/docs/getting_started/bounding_boxes_augmentation/
 def bb_overlap(boxA, boxB):
     xA = max(boxA[0], boxB[0])
     yA = max(boxA[1], boxB[1])
