@@ -13,7 +13,8 @@ https://amaarora.github.io/2020/09/13/unet.html#understanding-input-and-output-s
 https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47                       
 
 
-
+Tham khảo 
+https://github.com/kaggler-tv/codes.git
 
 
 
